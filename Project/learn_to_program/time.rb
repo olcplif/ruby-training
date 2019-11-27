@@ -1,15 +1,17 @@
-print "Vvedit\' Im\'ya Pershoi lyudyny: "
-name1 = gets.chomp
-print "Vvedit\' Datu narodzhennya Pershoi lyudyny: "
-date1 = gets.chomp
-print "Vvedit\' Im\'ya Drugoi lyudyny: "
-name2 = gets.chomp
-print "Vvedit\' Datu narodzhennya Pershoi lyudyny: "
-date2 = gets.chomp
-my_birthday = Time.mktime(date1)
-puts "My birthday: " + my_birthday.to_s
-ole_birthday = Time.mktime(date2)
-puts "Ole birthday: " + ole_birthday.to_s
+# print "Vvedit\' Im\'ya Pershoi lyudyny: "
+# name1 = gets.chomp
+# print "Vvedit\' Datu narodzhennya Pershoi lyudyny: "
+# date1 = gets.chomp
+# print "Vvedit\' Im\'ya Drugoi lyudyny: "
+# name2 = gets.chomp
+# print "Vvedit\' Datu narodzhennya Pershoi lyudyny: "
+# date2 = gets.chomp
+# my_birthday = Time.mktime(date1)
+# puts "My birthday: " + my_birthday.to_s
+# ole_birthday = Time.mktime(date2)
+# puts "Ole birthday: " + ole_birthday.to_s
+my_birthday = Time.mktime(1986,02,26)
+ole_birthday = Time.mktime(1985,03,05)
 if my_birthday == ole_birthday
   puts "My narodylysya v odyn den\'"
 elsif my_birthday < ole_birthday
