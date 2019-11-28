@@ -3,7 +3,7 @@ require 'telegram/bot'
 
 TOKEN = '891522345:AAHYdqQGEZWvC1xY8fiklXYvyMf8WGhGvkM'
 
-ANSWERS = ["Yes","No"]
+ANSWERS = ["Yes","No", "I don't understand You!"]
 
 Telegram::Bot::Client.run(TOKEN) do |bot|
   bot.listen do |message|
