@@ -1,4 +1,4 @@
-class Die #Игральная кость
+class Die #Гральна кисть
  def initialize
    roll
  end
