@@ -112,6 +112,7 @@ pet.walk
 pet.putToBed
 pet.rock
 pet.putToBed
+pet.feed
 pet.putToBed
 pet.putToBed
 pet.putToBed
