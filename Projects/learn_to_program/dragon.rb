@@ -54,6 +54,17 @@ class Dragon
     end
   end
 
+  def managerMetod (action)
+    @action = action
+    if @action == 'feed'
+      feed
+    elsif  @action == 'walk'
+      walk
+    else
+      puts 'Команда не зрозуміла!'
+    end
+  end
+
   private # Означає, що визначені тут методи є внутрішніми методами даного об'єкта
   # Тобто можна годувати дракона, але не можна його запитати чи він голодний.
 
@@ -116,3 +127,8 @@ pet.feed
 pet.putToBed
 pet.putToBed
 pet.putToBed
+puts 'Введіть дію (walk) або (feed)'
+pet.managerMetod(action = gets.chomp)
+pet.feed
+pet.putToBed
+pet.toss
