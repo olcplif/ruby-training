@@ -1,3 +1,25 @@
+=begin
+def scramble(s1,s2)
+  alphabet = ('a'..'z').to_a
+  str1 = s1.split(//) # перетворення рядка в масив
+  str2 = s2.split(//)
+  l = str2.length
+  i = 0
+
+  str2.each do |symbol|
+    if (str1.include?(symbol) == true) and (alphabet.include?(symbol) == true)
+      i += 1
+    end
+  end
+
+  if i == l
+    true
+  else
+    false
+  end
+end
+=end
+
 def scramble(s1,s2)
   alphabet = ('a'..'z').to_a
     str1 = s1.split(//) # перетворення рядка в масив
