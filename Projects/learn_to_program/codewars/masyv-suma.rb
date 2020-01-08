@@ -1,5 +1,5 @@
 p array = [1, 2, 3, 4, 5, 6]
-suma = 9
+suma = 6
 result = 0
 supplements = []
 
@@ -8,6 +8,14 @@ j = 0
 n = 0
 k = 0
 l = array.length
+
+array.each do |elem|
+  if elem == suma
+    supplements = [elem]
+    p supplements.to_s
+  end
+end
+
 while j < l - 1
   while i < l - 1
       result = array[j] + array[i + 1] + k
