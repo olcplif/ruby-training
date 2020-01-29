@@ -1,0 +1,49 @@
+Started GET "/" for ::1 at 2020-01-29 17:15:03 +0200
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/user/.rvm/gems/ruby-2.5.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/user/.rvm/gems/ruby-2.5.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 30.9ms | Allocations: 467)
+Completed 200 OK in 68ms (Views: 41.8ms | ActiveRecord: 0.0ms | Allocations: 2672)
+
+
+Started GET "/" for ::1 at 2020-01-29 17:32:51 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/user/.rvm/gems/ruby-2.5.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/user/.rvm/gems/ruby-2.5.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 28.4ms | Allocations: 204)
+Completed 200 OK in 69ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 2502)
+
+
+Started GET "/" for ::1 at 2020-01-29 17:35:15 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 91)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/user/Ruby/Projects/blog/public/packs
+[Webpacker] Hash: 53154d7baad00c6a1252
+Version: webpack 4.41.5
+Time: 9748ms
+Built at: 2020-01-29 17:35:36
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 20136ms (Views: 20132.1ms | ActiveRecord: 0.0ms | Allocations: 19083)
+
+
+Started GET "/" for ::1 at 2020-01-29 17:36:57 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 4706)
+
+
